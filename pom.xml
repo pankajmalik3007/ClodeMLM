@@ -6,8 +6,6 @@
 	<artifactId>Triveni</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
-		<!-- Source:
-		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -15,8 +13,6 @@
 			<scope>compile</scope>
 		</dependency>
 
-		<!-- Source:
-		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
@@ -25,9 +21,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>Apache_POI</groupId>
-			<artifactId>Apache_POI</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.2.5</version>
 		</dependency>
 	</dependencies>
 </project>
