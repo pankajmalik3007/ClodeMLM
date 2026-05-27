@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class LaunchTheWebsite {
+public class LaunchTheWebsiteTest {
 
 	@Test // This annotation tells Maven to run this method and generate reports!
 	public void testLoginPages() throws InterruptedException {
